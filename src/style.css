@@ -1,3 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  margin: 100px 150px;
+}
+
 body {
-  background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  background: cadetblue;
+  border: 1px solid grey;
+  box-shadow: 5px 3px 3px grey;
+  padding-left: 0;
+  margin-top: 10px;
+  width: 50vw;
+}
+
+.listEl {
+  border-bottom: 1px solid grey;
+  padding: 10px 5px;
 }
