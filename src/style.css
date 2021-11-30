@@ -8,20 +8,38 @@ main {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eaeaea;
 }
 
 ul {
   list-style-type: none;
-  background: cadetblue;
   border: 1px solid grey;
+  background-color: white;
   box-shadow: 5px 3px 3px grey;
   padding-left: 0;
-  margin-top: 10px;
-  width: 50vw;
+  width: 450px;
+}
+
+label {
+  margin-left: 10px;
 }
 
 .listEl {
   border-bottom: 1px solid grey;
+  padding: 10px 5px;
+}
+
+.subheading {
+  margin-top: 10px;
+  border: none;
+  width: 450px;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+.clearBtn {
+  width: 100%;
+  border: none;
   padding: 10px 5px;
 }

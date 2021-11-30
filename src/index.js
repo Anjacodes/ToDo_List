@@ -16,6 +16,11 @@ const createLi = () => {
         li.appendChild(label);
         taskContainer.appendChild(li);
     });
+    const clearBtn = document.createElement('button');
+    clearBtn.setAttribute('type', 'button');
+    clearBtn.classList.add('clearBtn');
+    clearBtn.textContent = 'Clear all completed'
+    taskContainer.appendChild(clearBtn);
 }
 
 window.addEventListener('load', createLi);
