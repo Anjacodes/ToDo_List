@@ -3,6 +3,7 @@ const HmtlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
+  devtool: 'inline-source-map',
   devServer: {
     static: './dist',
   },
