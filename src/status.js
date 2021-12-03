@@ -1,5 +1,3 @@
-// import { clearCont } from './index.js';
-
 import { checkBox, clearCont } from './check.js';
 
 const addTask = document.querySelector('.subheading');

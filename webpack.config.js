@@ -1,6 +1,5 @@
 const path = require('path');
 const HmtlWebpackPlugin = require('html-webpack-plugin');
-// const { check } = require('lockfile');
 
 module.exports = {
   mode: 'development',

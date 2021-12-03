@@ -1,4 +1,4 @@
-import _ from 'lodash'; // eslint-disable-line
+import _ from 'lodash'; 
 import './style.css';
 import {
   tasks, deleteTask, clearAll, generateTasks,
@@ -24,5 +24,3 @@ const update = () => {
 };
 
 window.addEventListener('load', update);
-
-// export { update };
