@@ -85,6 +85,7 @@ addTask.addEventListener('keypress', (e) => {
       clearCont();
       generateTasks(storedTasks);
       checkBox(storedTasks);
+      addTask.value = '';
     } else {
       const task = new Task(addTask.value, false, tasks.length);
       tasks.push(task);
@@ -92,6 +93,7 @@ addTask.addEventListener('keypress', (e) => {
       clearCont();
       generateTasks(tasks);
       checkBox(tasks);
+      
     }
   }
 });
@@ -126,6 +128,9 @@ const clearAll = (arr) => {
   const clearBtn = document.querySelector('.clearBtn');
   clearBtn.addEventListener('click', () => {
     const openTasks = arr.filter((task) => task.completed === false);
+    openTasks.forEach((task, i) => {
+      task.index = i;
+    });
     localStorage.setItem('tasks', JSON.stringify(openTasks));
     clearCont();
     generateTasks(openTasks);
