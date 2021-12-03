@@ -30,6 +30,23 @@ label {
   padding: 10px 5px;
 }
 
+.editBtn {
+  float: right;
+  margin-left: 5px;
+}
+
+.red {
+  color: red;
+  font-size: small;
+  display: none;
+}
+
+.deleteBtn {
+  background-color: white;
+  border: none;
+  color: grey;
+}
+
 .subheading {
   margin-top: 10px;
   border: none;
@@ -39,7 +56,9 @@ label {
 }
 
 .clearBtn {
-  width: 100%;
-  border: none;
+  width: 450px;
+  border: 1px solid grey;
+  border-top: none;
   padding: 10px 5px;
+  box-shadow: 5px 3px 3px grey;
 }

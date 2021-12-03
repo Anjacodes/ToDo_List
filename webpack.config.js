@@ -1,8 +1,10 @@
 const path = require('path');
 const HmtlWebpackPlugin = require('html-webpack-plugin');
+// const { check } = require('lockfile');
 
 module.exports = {
-  entry: './src/index.js',
+  mode: 'development',
+  entry: ['./src/index.js', './src/status.js', './src/check.js'],
   devtool: 'inline-source-map',
   devServer: {
     static: './dist',

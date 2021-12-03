@@ -5,6 +5,7 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.3",
+    "gh-pages-deploy": "^0.5.1",
     "hint": "^6.1.9",
     "html-webpack-plugin": "^5.5.0",
     "loader": "^2.1.1",
@@ -591,7 +592,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages-deploy",
+    "clean-source": "rimraf README.md src webroot package.json"
   },
   "keywords": [],
   "author": "",
