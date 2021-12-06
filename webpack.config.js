@@ -10,7 +10,6 @@ module.exports = {
   },
   plugins: [
     new HmtlWebpackPlugin({
-      title: 'Output Management',
       template: './src/index.html',
     }),
   ],
