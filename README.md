@@ -12,7 +12,7 @@ JavaScript
 
 <h2>Live Demo</h2>
 
-<a href="#" rel="noopener noreferrer">Live Demo Link</a>
+<a href="https://anjacodes.github.io/ToDo_List/" rel="noopener noreferrer">Live Demo Link</a>
 
 <h2>Getting Started</h2>
 
